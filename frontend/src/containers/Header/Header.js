@@ -19,6 +19,7 @@ const skillList = skills.map((skill, index) => {
     <div className="circle-cmp app__flex" key={`circle-${index}`}>
       <img src={skill} alt="skill-icon" />
     </div>
+
   );
 });
 
@@ -40,7 +41,7 @@ const Header = () => {
             </div>
           </div>
           <motion.div
-        className="app__header-info"
+        // className="app__header-info"
         whileInView={{ x: [500, 0], opacity: [0, 1] }}
         transition={{ duration: 1.75 }}
       >
