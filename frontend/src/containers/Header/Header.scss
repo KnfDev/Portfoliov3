@@ -170,7 +170,7 @@
 
 
 .app__header-img {
-  flex: 1;
+  flex: .65;
   height: 100%;
 
   display: flex;
@@ -199,6 +199,7 @@
 
   .profile {
     // border-radius: 50%;
+    object-fit:scale-down;
     visibility: hidden;
   }
 
