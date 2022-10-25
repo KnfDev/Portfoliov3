@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./Header.scss";
 import { images } from "../../utils";
+import { AppWrap } from "../../wrapper";
 
 const scaleVariants = {
   whileInView: {
@@ -13,7 +14,7 @@ const scaleVariants = {
     },
   },
 };
-const skills = [images.javascript, images.react, images.mui, images.nodejs, images.express, images.postgreSql, images.sass, images.html, images.css];
+const skills = [images.javascript, images.react, images.mui, images.nodejs, images.express, images.postgreSql, images.sass, images.html];
 const skillList = skills.map((skill, index) => {
   return (
     <div className="circle-cmp app__flex" key={`circle-${index}`}>
@@ -79,4 +80,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AppWrap(Header);
