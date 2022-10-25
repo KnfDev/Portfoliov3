@@ -13,7 +13,7 @@ const scaleVariants = {
     },
   },
 };
-const skills = [images.javascript, images.react, images.mui, images.nodejs, images.express, images.postgreSql, images.sass];
+const skills = [images.javascript, images.react, images.mui, images.nodejs, images.express, images.postgreSql, images.sass, images.html, images.css];
 const skillList = skills.map((skill, index) => {
   return (
     <div className="circle-cmp app__flex" key={`circle-${index}`}>

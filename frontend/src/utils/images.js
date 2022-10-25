@@ -9,6 +9,12 @@ import nodejs from '../images/nodejs-original-wordmark.svg'
 import express from '../images/express-original-wordmark.svg'
 import postgreSql from '../images/postgresql-original-wordmark.svg'
 import sass from '../images/sass-original.svg'
+import html from '../images/html5-original-wordmark.svg'
+import css from '../images/css3-original-wordmark.svg'
+import league from '../images/LeagueTrack2.png'
+import travel from '../images/travel.png'
+import study from '../images/Study.png'
+import restaurant from '../images/RestaurantLanding.png'
 export default {
   bgIMG,
   photo,
@@ -20,5 +26,11 @@ export default {
   nodejs,
   express,
   postgreSql,
-  sass
+  sass,
+  html,
+  css,
+  league,
+  study,
+  travel,
+  restaurant,
 }
