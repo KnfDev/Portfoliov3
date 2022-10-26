@@ -14,7 +14,7 @@ const scaleVariants = {
     },
   },
 };
-const skills = [images.javascript, images.react, images.mui, images.nodejs, images.express, images.postgreSql, images.sass, images.html];
+const skills = [images.javascript, images.react, images.mui, images.nodejs, images.express, images.postgreSql, images.sass, images.html, images.css];
 const skillList = skills.map((skill, index) => {
   return (
     <div className="circle-cmp app__flex" key={`circle-${index}`}>
@@ -47,8 +47,8 @@ const Header = () => {
         transition={{ duration: 1.75 }}
       >
           <div className="tag-cmp2 app__flex">
-            <p className="p-text">Developer..</p>
-            <p className="p-text">Full-Stack Developer</p>
+            <p className="p-text">Developer.</p>
+            <p className="p-text">Full-Stack Developer.</p>
           </div>
           </motion.div>
         </div>
@@ -80,4 +80,4 @@ const Header = () => {
   );
 };
 
-export default AppWrap(Header);
+export default AppWrap(Header, 'home');

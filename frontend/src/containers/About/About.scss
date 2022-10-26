@@ -25,11 +25,20 @@
   margin: 2rem;
 
   img {
-    width: 100%;
+    width: 80%;
     height: 200px;
-    object-fit: cover;
-    border: solid 3px white;
+    object-fit:fill;
+    border-top: solid 5px white;
+    border-right: solid 5px white;
+    border-bottom: solid 40px white;
+    border-left: solid 5px  white;
     filter: grayscale(100%);
+    @media screen and (max-width: 450px) {
+      filter: grayscale(0%)
+    }
+    @media screen and (max-height: 390px) {
+      filter: grayscale(0)
+    }
   }
 
   @media screen and (min-width: 2000px){

@@ -11,13 +11,13 @@
   background-color: var(--primary-color);
 }
 //currently this is messing up width of header section//
-// .app__container {
-//   width: 100%;
-//   min-height: 100vh;
+.app__container {
+  width: 100%;
+  min-height: 100vh;
 
-//   display: flex;
-//   flex-direction: row;
-// }
+  display: flex;
+  flex-direction: row;
+}
 
 .app__flex {
   display: flex;
